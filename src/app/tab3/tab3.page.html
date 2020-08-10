@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="secondary">
+    <ion-title>
+      Parques
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <ion-list>
+    <ion-item [routerLink]="['/pedradacebola']">
+      <ion-thumbnail slot="start">
+        <img src="https://www.transportal.com.br/noticias/wp-content/uploads/2019/04/Pedra-no-Parque-da-Pedra-da-Cebola.jpg">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="tertiary">
+          <h2>Pedra da Cebola</h2>
+        </ion-text>
+        <ion-badge color="danger" slot="end">Vitória</ion-badge>
+      </ion-label>
+      <ion-icon name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
