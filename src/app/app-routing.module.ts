@@ -9,14 +9,6 @@ const routes: Routes = [
   {
     path: 'pedradacebola',
     loadChildren: () => import('./parques/pedradacebola/pedradacebola.module').then( m => m.PedradacebolaPageModule)
-  },
-  {
-    path: 'teste',
-    loadChildren: () => import('./teste/teste.module').then( m => m.TestePageModule)
-  },
-  {
-    path: 'tab4',
-    loadChildren: () => import('./tab4/tab4.module').then( m => m.Tab4PageModule)
   }
 ];
 @NgModule({
